@@ -1,0 +1,119 @@
+Index: .idea/inspectionProfiles/Project_Default.xml
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+new file mode 100644
+--- /dev/null	(date 1738416881148)
++++ b/.idea/inspectionProfiles/Project_Default.xml	(date 1738416881148)
+@@ -0,0 +1,57 @@
++<component name="InspectionProjectProfileManager">
++  <profile version="1.0">
++    <option name="myName" value="Project Default" />
++    <inspection_tool class="ComposePreviewDimensionRespectsLimit" enabled="true" level="WARNING" enabled_by_default="true">
++      <option name="composableFile" value="true" />
++      <option name="previewFile" value="true" />
++    </inspection_tool>
++    <inspection_tool class="ComposePreviewMustBeTopLevelFunction" enabled="true" level="ERROR" enabled_by_default="true">
++      <option name="composableFile" value="true" />
++      <option name="previewFile" value="true" />
++    </inspection_tool>
++    <inspection_tool class="ComposePreviewNeedsComposableAnnotation" enabled="true" level="ERROR" enabled_by_default="true">
++      <option name="composableFile" value="true" />
++      <option name="previewFile" value="true" />
++    </inspection_tool>
++    <inspection_tool class="ComposePreviewNotSupportedInUnitTestFiles" enabled="true" level="ERROR" enabled_by_default="true">
++      <option name="composableFile" value="true" />
++      <option name="previewFile" value="true" />
++    </inspection_tool>
++    <inspection_tool class="GlancePreviewDimensionRespectsLimit" enabled="true" level="WARNING" enabled_by_default="true">
++      <option name="composableFile" value="true" />
++    </inspection_tool>
++    <inspection_tool class="GlancePreviewMustBeTopLevelFunction" enabled="true" level="ERROR" enabled_by_default="true">
++      <option name="composableFile" value="true" />
++    </inspection_tool>
++    <inspection_tool class="GlancePreviewNeedsComposableAnnotation" enabled="true" level="ERROR" enabled_by_default="true">
++      <option name="composableFile" value="true" />
++    </inspection_tool>
++    <inspection_tool class="GlancePreviewNotSupportedInUnitTestFiles" enabled="true" level="ERROR" enabled_by_default="true">
++      <option name="composableFile" value="true" />
++    </inspection_tool>
++    <inspection_tool class="PreviewAnnotationInFunctionWithParameters" enabled="true" level="ERROR" enabled_by_default="true">
++      <option name="composableFile" value="true" />
++      <option name="previewFile" value="true" />
++    </inspection_tool>
++    <inspection_tool class="PreviewApiLevelMustBeValid" enabled="true" level="ERROR" enabled_by_default="true">
++      <option name="composableFile" value="true" />
++      <option name="previewFile" value="true" />
++    </inspection_tool>
++    <inspection_tool class="PreviewDeviceShouldUseNewSpec" enabled="true" level="WEAK WARNING" enabled_by_default="true">
++      <option name="composableFile" value="true" />
++      <option name="previewFile" value="true" />
++    </inspection_tool>
++    <inspection_tool class="PreviewFontScaleMustBeGreaterThanZero" enabled="true" level="ERROR" enabled_by_default="true">
++      <option name="composableFile" value="true" />
++      <option name="previewFile" value="true" />
++    </inspection_tool>
++    <inspection_tool class="PreviewMultipleParameterProviders" enabled="true" level="ERROR" enabled_by_default="true">
++      <option name="composableFile" value="true" />
++      <option name="previewFile" value="true" />
++    </inspection_tool>
++    <inspection_tool class="PreviewPickerAnnotation" enabled="true" level="ERROR" enabled_by_default="true">
++      <option name="composableFile" value="true" />
++      <option name="previewFile" value="true" />
++    </inspection_tool>
++  </profile>
++</component>
+\ No newline at end of file
+Index: app/src/main/java/com/example/uplearn/ui/screens/AcademicsScreen.kt
+===================================================================
+diff --git a/app/src/main/java/com/example/uplearn/ui/screens/AcademicsScreen.kt b/app/src/main/java/com/example/uplearn/ui/screens/AcademicsScreen.kt
+new file mode 100644
+--- /dev/null	(date 1738417007223)
++++ b/app/src/main/java/com/example/uplearn/ui/screens/AcademicsScreen.kt	(date 1738417007223)
+@@ -0,0 +1,4 @@
++package com.example.uplearn.ui.screens
++
++class AcademicsScreen {
++}
+\ No newline at end of file
+Index: app/src/main/java/com/example/uplearn/navigation/UpLearnNavHost.kt
+===================================================================
+diff --git a/app/src/main/java/com/example/uplearn/navigation/UpLearnNavHost.kt b/app/src/main/java/com/example/uplearn/navigation/UpLearnNavHost.kt
+new file mode 100644
+--- /dev/null	(date 1738416945633)
++++ b/app/src/main/java/com/example/uplearn/navigation/UpLearnNavHost.kt	(date 1738416945633)
+@@ -0,0 +1,4 @@
++package com.example.uplearn.navigation
++
++class UpLearnNavHost {
++}
+\ No newline at end of file
+Index: app/src/main/java/com/example/uplearn/navigation/Screens.kt
+===================================================================
+diff --git a/app/src/main/java/com/example/uplearn/navigation/Screens.kt b/app/src/main/java/com/example/uplearn/navigation/Screens.kt
+new file mode 100644
+--- /dev/null	(date 1738416930517)
++++ b/app/src/main/java/com/example/uplearn/navigation/Screens.kt	(date 1738416930517)
+@@ -0,0 +1,4 @@
++package com.example.uplearn.navigation
++
++class Screens {
++}
+\ No newline at end of file
+Index: app/src/main/java/com/example/uplearn/ui/screens/ProfileScreen.kt
+===================================================================
+diff --git a/app/src/main/java/com/example/uplearn/ui/screens/ProfileScreen.kt b/app/src/main/java/com/example/uplearn/ui/screens/ProfileScreen.kt
+new file mode 100644
+--- /dev/null	(date 1738416983939)
++++ b/app/src/main/java/com/example/uplearn/ui/screens/ProfileScreen.kt	(date 1738416983939)
+@@ -0,0 +1,2 @@
++package com.example.uplearn.ui.screens
++
+Index: app/src/main/java/com/example/uplearn/ui/screens/SessionsScreen.kt
+===================================================================
+diff --git a/app/src/main/java/com/example/uplearn/ui/screens/SessionsScreen.kt b/app/src/main/java/com/example/uplearn/ui/screens/SessionsScreen.kt
+new file mode 100644
+--- /dev/null	(date 1738416964658)
++++ b/app/src/main/java/com/example/uplearn/ui/screens/SessionsScreen.kt	(date 1738416964658)
+@@ -0,0 +1,2 @@
++package com.example.uplearn.ui.screens
++
